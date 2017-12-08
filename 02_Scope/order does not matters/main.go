@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"add"
 )
 
 func main() {
@@ -13,5 +12,3 @@ func main() {
 	fmt.Println("Sum of the value: ", Number)
 
 }
-
-var y = 234

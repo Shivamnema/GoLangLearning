@@ -20,5 +20,7 @@ func main() {
 	switch time.Now().Weekday() {
 	case time.Saturday, time.Sunday:
 		fmt.Println("It's Weekend")
+	case time.Monday:
+		fmt.Println("It's Monday")
 	}
 }

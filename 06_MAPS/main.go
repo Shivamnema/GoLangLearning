@@ -11,7 +11,7 @@ func main() {
 	m["k1"] = 123
 	m["k2"] = 123
 	m["k3"] = 123
-	
+
 	fmt.Println(m)
 	//length of map
 	fmt.Println(len(m))
@@ -19,8 +19,8 @@ func main() {
 	//del any map using key
 	delete(m, "k2")
 	fmt.Println("map:", m)
-	
+
 	n := map[string]int{"foo": 1, "bar": 2}
-    fmt.Println("map:", n)
+	fmt.Println("map:", n)
 
 }
